@@ -8,7 +8,7 @@ print()
 the_number = random.randint(0, 100)
 guess = -1
 
-name = input('Player what is your name? ')
+name = input('Hey what is your name? ')
 
 while guess != the_number:
     guess_text = input('Guess a number between 0 and 100: ')
